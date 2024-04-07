@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_OOPCounterStrikeLibrary.Abstract
 {
-    internal interface IAtes
+    public interface IAtes
     {
         string AtesEt();
         string Doldur();

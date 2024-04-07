@@ -10,7 +10,7 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
 {
     public class Tufek : AtesliSilah
     {
-        string url = @"\..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
+        string url = @"..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
         public TufekTipi Tip { get; set; }
         public Tufek(string marka, string model, double agirlik, bool yivliMi, double kalibre, bool durbunluMu,TufekTipi tip) : base(marka, model, agirlik, Menzil.UzakMenzil, yivliMi, kalibre, durbunluMu)
         {

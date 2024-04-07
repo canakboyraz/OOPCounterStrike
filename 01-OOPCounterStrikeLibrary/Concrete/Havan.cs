@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace _01_OOPCounterStrikeLibrary.Concrete
 {
-    public class Top : AtesliSilah
+    public class Havan : AtesliSilah
     {
         string url = @"..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
-        public Top(string marka, string model, double agirlik) : base(marka, model, agirlik, Menzil.ÇokUzakMenzil, false, 152, false)
+        public Havan(string marka, string model, double agirlik) : base(marka, model, agirlik, Menzil.ÇokUzakMenzil, false, 5, false)
         {
-            this.AudioPathFire = @$"{url}\Tabanca.wav";
-            this.AudioParhReload = @$"{url}\silah1.wav";
+            this.AudioPathFire = @$"{url}\TopAtis.wav";
+            this.AudioParhReload = @$"{url}\GunEmpty.wav";
             this.MaxMermiSayisi = 1;
         }
 
@@ -28,7 +28,7 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
 
                 this.MermiAdet = this.MaxMermiSayisi;
 
-                return $"Top {this.MaxMermiSayisi} mermilik şarjör takıldı";
+                return $"Havan {this.MaxMermiSayisi} mermilik şarjör takıldı";
             }
             else
             {

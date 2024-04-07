@@ -34,7 +34,7 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
         public string AtesEt()
         {
             int oldurduMu = Olasilik.Next(1,3);
-            string url = @"\..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
+            string url = @"..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
             if (MermiAdet > 0)
             {
                 SoundPlayer sp = new SoundPlayer();

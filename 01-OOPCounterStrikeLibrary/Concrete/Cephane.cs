@@ -28,11 +28,11 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
                 case 3:
                     return Image.FromFile($@"{url}\ShotGun.jpg");
                 case 4:
-                    return Image.FromFile($@"{url}\MachineGun.jpg");
+                    return Image.FromFile($@"{url}\MachineGun.gif");
                 case 5:
                     return Image.FromFile($@"{url}\KF1500.jpg");
                 case 6:
-                    return Image.FromFile($@"{url}\RPG.jpg");
+                    return Image.FromFile($@"{url}\Havan.jpg");
             }
             return Image.FromFile($@"{url}\Knife.jpg");
         }

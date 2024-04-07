@@ -27,7 +27,7 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
             this.AtesliMi = atesliMi;
         }
 
-        string url = @"\..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
+        string url = @"..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
 
         internal string Oldur()
         {

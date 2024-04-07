@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_OOPCounterStrikeLibrary.Abstract
 {
-    internal interface IYakinlastir
+    public interface IYakinlastir
     {
         bool DurbunluMu { get; set; }
         string Yakinlastir();

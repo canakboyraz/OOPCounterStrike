@@ -11,7 +11,7 @@ namespace _01_OOPCounterStrikeLibrary.Concrete
 {
     public class Tabanca : AtesliSilah
     {
-        string url = @"\..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
+        string url = @"..\..\..\..\01-OOPCounterStrikeLibrary\Sesler";
         public Tabanca(string marka, string model, double agirlik, bool yivliMi, double kalibre, bool durbunluMu) : base(marka, model, agirlik, Menzil.UzakMenzil, yivliMi, kalibre, durbunluMu)
         {
             this.AudioPathFire = @$"{url}\Tabanca.wav";

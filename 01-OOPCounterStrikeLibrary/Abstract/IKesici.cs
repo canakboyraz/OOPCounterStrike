@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_OOPCounterStrikeLibrary.Abstract
 {
-    internal interface IKesici // IKesici interfaceinden implimente alan sınıflar Kes ve Bileyle metotlarını doldurmak zorundadırlar.
+    public interface IKesici // IKesici interfaceinden implimente alan sınıflar Kes ve Bileyle metotlarını doldurmak zorundadırlar.
     {
         string Kes();
         string Bileyle();
