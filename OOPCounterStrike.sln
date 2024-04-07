@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-OOPCounterStrikeLibrary", "01-OOPCounterStrikeLibrary\01-OOPCounterStrikeLibrary.csproj", "{4C188EE9-9858-46D2-AAE4-7A9318A733F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-OOPCounterStrikeUI", "02-OOPCounterStrikeUI\02-OOPCounterStrikeUI.csproj", "{4589A65E-A2B3-48BD-A117-A03E8109D15F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C188EE9-9858-46D2-AAE4-7A9318A733F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C188EE9-9858-46D2-AAE4-7A9318A733F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C188EE9-9858-46D2-AAE4-7A9318A733F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C188EE9-9858-46D2-AAE4-7A9318A733F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4589A65E-A2B3-48BD-A117-A03E8109D15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4589A65E-A2B3-48BD-A117-A03E8109D15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4589A65E-A2B3-48BD-A117-A03E8109D15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4589A65E-A2B3-48BD-A117-A03E8109D15F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
